@@ -1,3 +1,5 @@
+![Logo](https://github.com/delidolu1adam/Rust_Auto_Server_Installer/blob/main/images/rust_server_installer.png?raw=true)
+
 ℹ️ Hakkında
 =========================
 Bu Windows komut dosyası, tek bir tıklamayla Windows bilgisayarınıza bir Rust sunucusu kurmak için tasarlanmıştır.
