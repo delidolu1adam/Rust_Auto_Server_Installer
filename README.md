@@ -1,81 +1,74 @@
-ℹ️ Hakkında
+ℹ️ About
 =========================
-Bu Windows komut dosyası, tek bir tıklamayla Windows bilgisayarınıza bir Rust sunucusu kurmak için tasarlanmıştır.
-Bu Windows komut dosyası, aşağıdaki özellikleri içermektedir.
+This Windows script is designed to install a Rust server on your Windows computer with a single click. This Windows script includes the following features.
 
-✅ Özellikler
+✅ Features
 =========================
-- SteamCMD kurulumu
-- Normal ve Test sunucusu kurulumu seçeneği
-- Özel harita ve RustEdit DLL dosyası ekleme desteği
-- Oxide desteği
-- Carbon desteği
-- Sunucu yapılandırma seçeneği
-- Kurulum sırasında yönetici ekleme seçeneği
-- Kurulum tamamlandıktan sonra sunucuyu başlatma seçeneği
+- SteamCMD installation
+- Normal and Test server installation options
+- Support for adding custom maps and RustEdit DLL files
+- Oxide support
+- Carbon support
+- Server configuration option
+- Option to add administrator during installation
+- Option to start the server after installation is complete
 
-NOT: Kurulum tamamlandıktan sonra ana dizinde "ServerStart, ServerUpdate, ServerWipe" dosyaları oluşturulur. Bu dosyalarla sunucunuzu başlatabilir, güncelleyebilir veya sıfırlayabilirsiniz.
+NOTE: After installation is complete, the "ServerStart, ServerUpdate, and ServerWipe" files will be created in the main directory. You can use these files to start, update, or reset your server.
 
-🛡️ Antivirüs ve Güvenlik
+🛡️Antivirus and Security
 =========================
-SSL sertifikalarını yöneten herhangi bir antivirüs programı kullanıyorsanız, bu komut dosyasının düzgün çalışması için onu devre dışı bırakmanız gerekebilir.
-Kaspersky ve Bitdefender, bu tür sorunlara neden olan en yaygın iki antivirüs programıdır.
-Lütfen kendi güvenliğiniz için bir sonraki adımları okumaya devam edin!
+If you are using any antivirus program that manages SSL certificates, you may need to disable it for this script to work properly. Kaspersky and Bitdefender are two of the most common antivirus programs that cause these kinds of problems. Please continue reading the next steps for your own safety!
 
-🦠 Veri Sızıntısı ve Bitcoin Madenciliği
+🦠 Data Leak and Bitcoin Mining
 =========================
-Bu komut dosyası tamamen açık kaynak kodludur ve hiç bir kod şifrelenmemiştir, tüm kodları gönül rahatlığıyla inceleyebilirsiniz.
+This script is completely open source and none of the code is encrypted; you can examine all of the code with complete peace of mind.
 
-Bu dosya da virüs var, bilgilerim çalındı vb. yalan yanlış ithamlarda bulunan kişilere kulak asmayın. Dilerseniz indirmeden önce dosyanın indirme bağlantısını kullanarak [buradan](https://www.virustotal.com/gui/home/upload) veya dosyayı indirdikten sonra dosyayı karşıya yükleyerek [buradan](https://www.virustotal.com/gui/home/url) virüs taraması yapabilirsiniz.
+Ignore those who make false and misleading accusations such as "this file contains a virus," "my data has been stolen," etc. If you wish, you can scan the file for viruses before downloading it using the download link [here](https://www.virustotal.com/gui/home/upload) or after downloading the file and uploading it [here](https://www.virustotal.com/gui/home/url).
 
 > [!CAUTION]
-> Kodların ne işe yaradığını ve hangi amaçla yazıldığını öğrenmek için kod bilgisine sahip olmanıza da gerek yok [buraya](https://chatgpt.com/) tıklayın ardından **Bu kodlarda virüs var mı? Hangi amaçla yazılmış? Ne işe yarıyor? Bilgilerim çalınır mı? Bitcoin madenciği yapıyor mu?** sorununu yazdıktan sonra **SHIFT + ENTER** tuşlarına basarak 2 satır aşağı inin ve merak ettiğiniz kodu da yapıştırıp gönderin. :)
+> You don't need to know coding to find out what these codes do and what their purpose is. Click [here](https://chatgpt.com/), then type your question: **Do these codes contain viruses? What is their purpose? What do they do? Will my data be stolen? Do they mine Bitcoin?** After typing this question, press **SHIFT + ENTER** to scroll down two lines, paste the code you're curious about, and send it. :)
 
-❔ Nasıl Kullanılır?
+❔ How to Use?
 =========================
-- İndirmiş olduğunuz Rust_Sunucu_Kurulumu_Aracı.bat dosyasına sağ tıklayın ve çalıştırın.
-- Ardından Komut penceresindeki talimatları okuyarak ve doldurarak kuruluma devam edin.
-- Herhangi bir değer girilmezse, tüm değerler Varsayılan olarak eklenecektir.
+- Right-click on the Rust_Server_Setup_Tool.bat file you downloaded and run it. - Then, continue the installation by reading and filling in the instructions in the Command window. - If no values ​​are entered, all values ​​will be added as defaults.
 
 > [!NOTE]
-> Eğer yardıma ihtiyacınız olursa [buraya](https://youtube.com/@okolay) tıklayarak Youtube kanalımdaki ilgili videoyu izleyebilirsiniz. Ya da [buraya](https://dsc.gg/okolay) tıklayarak Discord sunucuma katılabilirsiniz.
+> If you need help, you can watch the relevant video on my YouTube channel by clicking [here](https://youtube.com/@okolay). Or you can join my Discord server by clicking [here](https://dsc.gg/okolay).
 
-- Windows 10, Windows 11 ve Windows Server 2019 sürümlerinde test edilmiştir ve herhangi bir ek araca ihtiyaç duymadan çalıştırılabilir.
-- Windows Server 2016, 2012R2 ve Windows 8/8.1 desteği için [buraya](https://curl.se/download.html) tıklayarak bilgisayarınıza CURL kurmanız gerekmektedir.
+- Tested on Windows 10, Windows 11, and Windows Server 2019, and can be run without any additional tools. - For Windows Server 2016, 2012R2, and Windows 8/8.1 support, you need to install CURL on your computer by clicking [here](https://curl.se/download.html).
 
 > [!WARNING]
-> Bu komut dosyasını çalıştırdıktan sonra (Varsayılan: RustServer) sunucu kimliği adınızı değiştirirseniz, ana dizinde bulunan WipeServer.bat dosyasındaki iki satırı da düzenlemeniz gerekir.
+> If you change your server ID name (Default: RustServer) after running this script, you will also need to edit two lines in the WipeServer.bat file located in the main directory.
 
-17. satırdaki `cd /d server/RustServer` kimlik adını yeni adınızla değiştirin.
-30. satırdaki `cd /d server/RustServer` kimlik adını yeni adınızla değiştirin.
+Replace the ID name `cd /d server/RustServer` on line 17 with your new name.
+Replace the ID name `cd /d server/RustServer` on line 30 with your new name.
 
 > [!NOTE]
-> Komut dosyası çalıştıktan sonra sunucunuzun kurulum dizinini taşımanız önerilmez, çünkü UpdateServer.bat dosyası artık beklendiği gibi çalışmayacaktır. Dosyayı yeni dizini referans alacak şekilde elle güncelleyebilirsiniz. Ancak genellikle Rust sunucu kurulumunu tamamlamak için komut dosyasını sıfırdan çalıştırmak ve ardından sunucu ve oxide veya carbon klasörlerinizi kopyalamak, kimlik adınızın aynı kalmasını sağlamak daha kolay ve önerilen bir yöntemdir.
+> It is not recommended to move your server's installation directory after the script runs, as the UpdateServer.bat file will no longer work as expected. You can manually update the file to reference the new directory. However, it is generally easier and more recommended to run the script from scratch to complete the Rust server installation, then copy your server and oxide or carbon folders, ensuring your identity remains the same.
 
-🗺️ Özel Haritalar
+🗺️ Custom Maps
 =========================
-- Özel haritaların kullanımıyla ilgili dikkat edilmesi gereken bir nokta!
-- Özel haritalar, doğrudan indirilebilir bir bağlantı olmalıdır; yani bağlantı, harita indirme işlemini hemen başlatmalıdır.
-- Örneğin, https://www.dropbox.com/s/ig1ds1m3q5hnflj/proc_install_1.0.map?dl=1 doğrudan indirme bağlantısıdır.
-- Dropbox bağlantıları için, bağlantının sonunda "dl=1" olduğundan ve "dl=0" olmadığından emin olun.
+- An important point to note regarding the use of custom maps!
+- Custom maps must be a direct downloadable link; that is, the link must immediately start the map download process. - For example, https://www.dropbox.com/s/ig1ds1m3q5hnflj/proc_install_1.0.map?dl=1 is a direct download link. - For Dropbox links, make sure that "dl=1" is at the end of the link and not "dl=0".
 
-🛜 Sunucunuza Nasıl Katılabilirsiniz?
+🛜 How can I join your server?
 =========================
-- Sunucu kurulumu tamamlandıktan sonra sunucuyu başlattıysanız zaten açık bir komut penceresi olmalı ve en altında [şuna benzer](https://ibb.co/KjgCZ4md) sayılar görünmeli, bu sunucunuzun sorunsuz çalıştığı anlamına gelir.
-- Eğer kurulum sonrasında sunucuyu başlatmayı reddetiyseniz, sunucunun kurulu olduğu dizindeki ServerStart.bat dosyasını çalıştırarak sunucuyu başlatabilirsiniz.
+- After completing the server installation, if you started the server, you should already have an open command window with numbers [similar to this](https://ibb.co/KjgCZ4md) at the bottom, which means your server is working correctly. - If you refused to start the server after installation, you can start the server by running the ServerStart.bat file located in the directory where the server is installed.
 
-- Sunucuya bağlanmak için F1 tuşuna basın ve KONSOL sekmesine şu komutu yazın:
+- To connect to the server, press F1 and type the following command in the CONSOLE tab:
 `client.connect localhost`
 
-- Eğer aynı ağda bulunan farklı bir bilgisayardan bağlanmak istiyorsanız, önce sunucunun kurulu olduğu IPv4 adresini öğrenin ve KONSOL sekmesine şu komutu yazın:
+- If you want to connect from a different computer on the same network, first find out the IPv4 address where the server is installed and type the following command in the CONSOLE tab:
 `client.connect `192.168.**.**`
 
-🛜 Aynı Ağda Olmayanlar Nasıl Katılabilir?
+🛜 How can people who are not on the same network join?
 =========================
-Yerel ağınızın dışındaki kişilerin sunucunuza katılmasını sağlamak için, UDP Sunucu Bağlantı Noktasını ve UDP Sorgu Bağlantı Noktasını sunucunuzun kurulu olduğu bilgisayara yönlendirmeniz gerekecektir.
-Bunun yanı sıra, çoğu durumda gerekli bağlantı noktalarının Windows Defender Güvenlik Duvarı'ndan geçmesine izin vermeniz gerekecektir.
-Her yönlendirici/güvenlik duvarı farklı olsa da, SRTBull sürecini açıklayan videoyu [buradan](https://www.youtube.com/watch?v=PYfpOUNVKoM) izleyebilirsiniz.
+To allow people outside your local network to join your server, you will need to forward the UDP Server Port and the UDP Query Port to the computer where your server is installed.
 
-❤️ Özel Teşekkür
+Additionally, in most cases you will need to allow the necessary ports to pass through the Windows Defender Firewall.
+
+While each router/firewall is different, you can watch a video explaining the SRTBull process [here](https://www.youtube.com/watch?v=PYfpOUNVKoM).
+
+❤️ Special Thanks
 =========================
-Bu aracı oluşturup bizimle paylaştığı için `@lilciv`'e teşekkür ederiz.
+We thank `@lilciv` for creating and sharing this tool with us.
