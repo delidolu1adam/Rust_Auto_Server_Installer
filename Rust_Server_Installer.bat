@@ -63,6 +63,7 @@ REM [Release] Creating Update File
 (
 	echo @echo off
 	echo chcp 65001 > NUL
+	echo mode 130,25 & color 02
 	echo REM UpdateServer.bat
 	echo mode 110,20
 	echo color 02
@@ -103,6 +104,7 @@ REM [Staging Branch] Creating Update File
 (
 	echo @echo off
 	echo chcp 65001 > NUL
+	echo mode 130,25 & color 02
 	echo REM UpdateServer.bat
 	echo mode 110,20
 	echo color 02
@@ -170,6 +172,7 @@ REM [Oxide] Creating Update File
 (
 	echo @echo off
 	echo chcp 65001 > NUL
+	echo mode 130,25 & color 02
 	echo REM UpdateServer.bat
 	echo mode 110,20
 	echo color 02
@@ -211,6 +214,7 @@ REM [Carbon] Creating Update File
 (
 	echo @echo off
 	echo chcp 65001 > NUL
+	echo mode 130,25 & color 02
 	echo REM UpdateServer.bat
 	echo mode 110,20
 	echo color 02
@@ -257,6 +261,7 @@ REM [Carbon - Staging Branch] Creating Update File
 (
 	echo @echo off
 	echo chcp 65001 > NUL
+	echo mode 130,25 & color 02
 	echo REM UpdateServer.bat
 	echo mode 110,20
 	echo color 02
@@ -358,6 +363,7 @@ REM [Procedural Map] Creating Startup File
 (
 	echo @echo off
 	echo chcp 65001 > NUL
+	echo mode 130,25 & color 02
 	echo :start
 	echo RustDedicated.exe -batchmode ^^
 	echo -logFile "%identity%_logs.txt" ^^
@@ -390,6 +396,7 @@ cd /d "%forceinstall%"
 (
 	echo @echo off
 	echo chcp 65001 > NUL
+	echo mode 130,25 & color 02
 	echo REM WipeServer.bat
 	echo mode 110,20
 	echo color 02
@@ -496,6 +503,7 @@ REM [Custom Map] Creating Startup File
 (
 	echo @echo off
 	echo chcp 65001 > NUL
+	echo mode 130,25 & color 02
 	echo :start
 	echo RustDedicated.exe -batchmode ^^
 	echo -logFile "%identity%_logs.txt" ^^
@@ -525,7 +533,8 @@ REM [Custom Map] Creating Wipe File
 cd /d "%forceinstall%"
 (
 	echo @echo off
-	echo chcp 65001 > NUL		
+	echo chcp 65001 > NUL
+	echo mode 130,25 & color 02	
 	echo REM WipeServer.bat
 	echo mode 110,20
 	echo color 02
