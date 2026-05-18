@@ -1,3 +1,5 @@
+![Logo](https://github.com/delidolu1adam/Rust_Auto_Server_Installer/blob/main/images/rust_server_installer.png?raw=true)
+
 ℹ️ About
 =========================
 This Windows script is designed to install a Rust server on your Windows computer with a single click. This Windows script includes the following features.
