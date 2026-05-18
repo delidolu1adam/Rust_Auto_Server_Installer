@@ -36,7 +36,7 @@ echo.
 echo 1: Kararlı Sürüm [Release]
 echo 2: Geliştirme Sürümü [Staging]
 echo.
-echo Not: Test sürümü için doğrudan Oxide desteği yoktur. Bunu daha sonra kendiniz kurmanız gerekiyor.
+echo Not: Geliştirme Sürümü sürümü için doğrudan Oxide desteği yoktur. Bunu daha sonra kendiniz kurmanız gerekiyor.
 echo.
 set /p choice="1 veya 2 tuşlarına basın: "
 if not '%choice%'=='' set choice=%choice:~0,1%
