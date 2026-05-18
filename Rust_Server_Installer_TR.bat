@@ -63,7 +63,6 @@ REM [Kararlı Sürüm] Güncelleme Dosyası Oluşturuluyor
 (
 	echo @echo off
 	echo chcp 65001 > NUL
-	echo mode 130,25 & color 02
 	echo REM Sunucuyu_Güncelle.bat
 	echo mode 110,20
 	echo color 02
@@ -104,7 +103,6 @@ REM [Geliştirme Sürümü] Güncelleme Dosyası Oluşturuluyor
 (
 	echo @echo off
 	echo chcp 65001 > NUL
-	echo mode 130,25 & color 02
 	echo REM Sunucuyu_Güncelle.bat
 	echo mode 110,20
 	echo color 02
@@ -172,7 +170,6 @@ REM [Oxide] Güncelleme Dosyası Oluşturuluyor
 (
 	echo @echo off
 	echo chcp 65001 > NUL
-	echo mode 130,25 & color 02
 	echo REM Sunucuyu_Güncelle.bat
 	echo mode 110,20
 	echo color 02
@@ -214,7 +211,6 @@ REM [Carbon] Güncelleme Dosyası Oluşturuluyor
 (
 	echo @echo off
 	echo chcp 65001 > NUL
-	echo mode 130,25 & color 02
 	echo REM Sunucuyu_Güncelle.bat
 	echo mode 110,20
 	echo color 02
@@ -261,7 +257,6 @@ REM [Carbon - Geliştirme Sürümü] Güncelleme Dosyası Oluşturuluyor
 (
 	echo @echo off
 	echo chcp 65001 > NUL
-	echo mode 130,25 & color 02
 	echo REM Sunucuyu_Güncelle.bat
 	echo mode 110,20
 	echo color 02
@@ -363,7 +358,6 @@ REM [Prosedürel Harita] Başlatma ​​Dosyası Oluşturuluyor
 (
 	echo @echo off
 	echo chcp 65001 > NUL
-	echo mode 130,25 & color 02
 	echo :start
 	echo RustDedicated.exe -batchmode ^^
 	echo -logFile "%identity%_logs.txt" ^^
@@ -396,7 +390,6 @@ cd /d "%forceinstall%"
 (
 	echo @echo off
 	echo chcp 65001 > NUL
-	echo mode 130,25 & color 02
 	echo REM Sunucuyu_Sıfırla.bat
 	echo mode 110,20
 	echo color 02
@@ -503,7 +496,6 @@ REM [Özel Harita] Başlatma ​​Dosyası Oluşturuluyor
 (
 	echo @echo off
 	echo chcp 65001 > NUL
-	echo mode 130,25 & color 02
 	echo :start
 	echo RustDedicated.exe -batchmode ^^
 	echo -logFile "%identity%_logs.txt" ^^
@@ -533,8 +525,7 @@ REM [Özel Harita]Sıfırlama Dosyası Oluşturuluyor
 cd /d "%forceinstall%"
 (
 	echo @echo off
-	echo chcp 65001 > NUL
-	echo mode 130,25 & color 02	
+	echo chcp 65001 > NUL	
 	echo REM Sunucuyu_Sıfırla.bat
 	echo mode 110,20
 	echo color 02
