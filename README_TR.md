@@ -65,12 +65,14 @@ Bu dosya da virüs var, bilgilerim çalındı vb. yalan yanlış ithamlarda bulu
 =========================
 - Sunucu kurulumu tamamlandıktan sonra sunucuyu başlattıysanız zaten açık bir komut penceresi olmalı ve en altında [şuna benzer](https://ibb.co/KjgCZ4md) sayılar görünmeli, bu sunucunuzun sorunsuz çalıştığı anlamına gelir.
 - Eğer kurulum sonrasında sunucuyu başlatmayı reddetiyseniz, sunucunun kurulu olduğu dizindeki ServerStart.bat dosyasını çalıştırarak sunucuyu başlatabilirsiniz.
-
 - Sunucuya bağlanmak için F1 tuşuna basın ve KONSOL sekmesine şu komutu yazın:
-`client.connect localhost`
-
+```bash
+client.connect localhost
+```
 - Eğer aynı ağda bulunan farklı bir bilgisayardan bağlanmak istiyorsanız, önce sunucunun kurulu olduğu IPv4 adresini öğrenin ve KONSOL sekmesine şu komutu yazın:
-`client.connect `192.168.**.**`
+```bash
+client.connect 192.168.**.**
+```
 
 🛜 Aynı Ağda Olmayanlar Nasıl Katılabilir?
 =========================
