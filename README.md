@@ -56,12 +56,14 @@ Replace the ID name `cd /d server/RustServer` on line 30 with your new name.
 🛜 How can I join your server?
 =========================
 - After completing the server installation, if you started the server, you should already have an open command window with numbers [similar to this](https://ibb.co/KjgCZ4md) at the bottom, which means your server is working correctly. - If you refused to start the server after installation, you can start the server by running the ServerStart.bat file located in the directory where the server is installed.
-
 - To connect to the server, press F1 and type the following command in the CONSOLE tab:
-`client.connect localhost`
-
+```bash
+client.connect localhost
+```
 - If you want to connect from a different computer on the same network, first find out the IPv4 address where the server is installed and type the following command in the CONSOLE tab:
-`client.connect `192.168.**.**`
+```bash
+client.connect 192.168.**.**
+```
 
 🛜 How can people who are not on the same network join?
 =========================
